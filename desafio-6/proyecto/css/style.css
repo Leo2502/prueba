@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    /*Alarakha*/
+@font-face {
+    font-family: AmaticSC-Regular;
+    src: url('../src/assets/web-fonts/AmaticSC-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: Quicksand-VariableFont_wght;
+    src: url('../src/assets/web-fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+}
+/*Fin de sección de Fuentes*/
+html{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --Color-de-fuente:black;
+    --Fuente-Principal: 'Poppins',sans-serif;
+}
+/*Edición de título principal*/
+h1{
+    text-align: center;
+    /*background-color: white;*/
+    font-family: Quicksand-VariableFont_wght;
+    font-size: 2.5em;
+    -webkit-text-stroke: black 0.25px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+/*Edición general*/
+body{
+    /*background-color: white;*/
+    background-image: url('../src/assets/images/fondo-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*Edición de encabezado*/
+header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 120px;
+}
+.Logo{
+    width: 15%;
+    position: relative;
+    top: 10px;
+    z-index: 2;
+}
+/* Menú Desplegable */
+    /*Catalogo*/
+#Menu{
+    text-align: center;
+    position: relative;
+    top: -50px;
+    list-style: none;
+}
+/*#Menú, #Menú ul{
+    font-size: 50;
+}*/
+#Menu li ul{
+    text-align: center;
+    position: absolute;
+    left: 17px;
+    display: none;
+    padding: 10px 30px 10px 10px;
+    border-bottom: rgb(175, 175, 175) solid 1px;
+    border-left: rgb(175, 175, 175) solid 1px;
+    border-right: rgb(175, 175, 175) solid 1px;
+    border-radius: 10px;
+}
+#Menu li ul li{
+    display: block;
+}
+#Menu li, #SMCatalogo li{
+    display: inline-block;
+    width: 11%;
+    position: relative;
+    font-size: 14px;
+    padding: 9px;
+    font-weight: bold;
+}
+#Menu li:hover ul{
+    display: block;
+    background-color: white;
+}
+    /*Ingresar*/
+#Menu1{
+    text-align: right;
+    position: relative;
+    top: -75px;
+    list-style: none
+}
+#Menu1 li ul{
+    text-align: left;
+    position: absolute;
+    left:-20px;
+    display: none;
+    padding: 10px 40px 10px 10px;
+    border-bottom: rgb(175, 175, 175) solid 1px;
+    border-left: rgb(175, 175, 175) solid 1px;
+    border-right: rgb(175, 175, 175) solid 1px;
+    border-radius: 10px;
+}
+#Menu1 li ul li{
+    display: block;
+}
+#Menu1 li, #cuentas li{
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    padding: 7px;
+    font-weight: bold;
+}
+#Menu1 li:hover ul{
+    display: block;
+    background-color: white;
+}
+.buscart, .buscar{
+    display: inline-block;   
+}
+/*Edición de Pié de Página*/
+footer, header{
+    padding: 10px;
+}
+.LogoPP{
+    width: 10%;
+    /*position: relative;
+    top: 10px;*/
+}
+.Titulo-PP{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-transform:uppercase;
+}
+#Tienda{
+    margin-left: 10px;
+}
+#Redes{
+    margin-top: 80px;
+    padding: 20px;
+}
+#Tienda, #SobreNosotros, #Redes{
+    display: inline-block;
+    font-weight: bold;
+    overflow: hidden;/*íconos de orden*/
+}
+#SobreNosotros{
+    position: relative;
+    top: -15px;
+    left: 30%;
+}
+#Redes{
+    position: relative;
+    top: -45px;
+    left: 55%;
+    /*text-decoration: none;*/
+}
+#ContactB svg, #ContactB a svg{
+    position: relative;
+    left: 1200px;
+    top: 60px;
+}
+/*Edición Texto de Menú Principal*/
+#Alarakha{
+    font-family: AmaticSC-Regular;
+    font-size: 3em;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    text-shadow: 1px -1px 1px white;
+    margin-bottom: 10px;
+}
+.Presentacion{
+    text-align: center;
+    color:rgb(255, 168, 183);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 22px;
+    -webkit-text-stroke: black 0.6px;
+}
+/*Edición Subtítulos*/
+.Selection{
+    color: var(--Color-de-fuente);
+    text-decoration:underline;
+    float:left;
+    text-align: center;
+    margin: 20px;
+    font-size: 32px;
+    text-shadow: 1px -1px 1px rgb(250, 170, 183);
+}
+h2{
+    text-align: center;
+    margin: 20px;
+    text-shadow: 1px -1px 1px white;
+}
+.VentasPM{
+    position: relative;
+    left: 400px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.Ubicacion, .Contacto-Directo{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.Ubicacion{
+    position: relative;
+    left: 40px;
+}
+#Contacto-directo, #Ubicacion{
+    float: left;
+    margin-top: -30px;
+}
+#Ubicacion{
+    margin-left: 350px;
+}
+/*Edición Títulos de Catálogo y párrafos*/
+#Catalogo{
+    display: none;
+}
+h3, .Texto-comun{
+    text-align:left;
+    font-weight: bold;
+    margin: 2em;
+}
+.Copyright{
+    font-size: 0.75em;
+}
+/*Botón para ir a Inicio de página*/
+#Subir{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 15px;
+    color: violet;
+}
+#Subir:visited{
+    color: violet;
+}
+#Subir:hover{
+    background-color: transparent;
+}
+/* Edición de Multimedia */
+video, .Catalogo, #VentasPM, h3 ul li, .IconoRS{
+    margin: 10px;
+}
+video{
+    position: relative;
+    left: 160px;
+    margin-top: 10px;
+}
+.Catalogo{
+    width: 333.8px;
+    margin: auto;
+    margin-right: 0px;
+}
+.Atencion{
+    position: relative;
+    left: 500px;
+    margin: 10px;
+}
+/* Edición de Enlaces */
+a{
+    text-decoration: none;
+    color: var(--Color-de-fuente)
+}
+a:visited{
+    color: var(--Color-de-fuente);
+}
+a:hover{
+    color:rgb(248, 145, 163);
+    text-decoration:underline;
+}
+a:active{
+    color: white;
+    background-color: black;
+}
+.To-index:hover, #Redes a:hover{
+    background-color: transparent;
+    padding: 0px;
+}
+/* Formularios*/
+    /*Contacto */
+#FormularioM, #FormularioI{
+    text-align: center;
+    margin-top: 10px;
+    margin: 30px;
+    font-weight: bold;
+}
+.Mensaje{
+    text-align: center;
+    text-shadow: 2px white;
+    margin-bottom: 0px;
+}
+.botonesM{
+    margin-top: 20px;
+    padding: 5px;
+    position: relative;
+    left: 250px;
+}
+.botonesI{
+    margin-top: 20px;
+    padding: 5px;
+}
+.e-mail{
+    position: relative;
+    right: 25px;
+}
+.e-mailt{
+    position: relative;
+    left: 26px;
+}
+    /* Ingresar */
+.Usuario{
+    position: relative;
+    right: 16px;
+}
+.UsuarioT{
+    position: relative;
+    left: 17px;
+}
+    /* Productos - flexbox */
+.productos-container{
+    display: flex;
+    justify-content: right;
+}
+.productos-photos{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.productos-photos img{
+    height: auto;
+    width: 317px;
+    padding: 10px;
+}
+.precios{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}

@@ -1,0 +1,17 @@
+AFTER FLEX
+
+Tener un contenedor (div)
+	aplicamos display flex y coloca uno al lado del otro
+El container es el que ordena los items que contiene
+
+flexflow une flexdirection y wrap
+justify-content alinea elementos
+
+align items baseline los alinea sobre un renglón independientemente del tamaño de los items
+
+en html style order te ordena los items como necesites
+flex-grow le da prioridad a items para ocupar tamaño del container
+
+alt+shift+abajo copia filas
+
+ultimo atributo a rgba es transparencia

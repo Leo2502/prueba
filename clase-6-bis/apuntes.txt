@@ -1,0 +1,26 @@
+﻿FLEXBOX
+
+se puede flexibilizar la caja
+
+se cambia de lado la caja, se rota, se cambia los tamaños, espacios automatizados
+
+display: flex
+
+div.menu = <div class="menu>
+
+flex container agrupa elementos flexibles. Decide cómo se colocan (horizontal y vertical)
+flex item: se manipula individualmente (espacios, colocación, etc.)
+
+si flexbox con wrap detecta que imagenes rompen la pagina los tira hacia abajo
+
+flex direction transformar las filas en columnas o viceversa
+
+flexbox nos permite aplicar un ancho flexible diferente del width
+
+
+Desafío Clase 06: Flexbox
+Vence el 25/10
+OBLIGATORIO
+Modelar al menos 2 secciones dentro del sitio utilizando las propiedades vistas de Flexbox  (display: flex, flex-direction, flex-wrap, justify-content, etc).
+COMPLEMENTARIO
+Construir, en un html aparte, una email del tipo "newsletter" estructurado con tablas como el ejemplo visto en clase.

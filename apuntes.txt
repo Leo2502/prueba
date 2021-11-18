@@ -1,0 +1,22 @@
+FRONT END
+
+Clase 6
+
+e-mails con tabla
+
+<table>
+	<tr> fila
+		<td> celda
+		<td> celda
+	</tr>
+</table>
+
+es.imgbb.com subir imágenes a la nube para el proyecto
+
+solo en las tablas (en mails) se puede poner estilos en línea (a las etiquetas. Atributo style "")
+
+margin 0 auto centra
+
+llevar a gmail de 2 maneras:
+-con la extensión html inserter (se copia la tabla en el mail y se inserta)
+-artesanal: se escribe en el cuerpo de mail ("texto", inspeccionar sobre texto). Click derecho, editar como html, se borra "texto" y pegamos la tabla. Click afuera
